@@ -16,6 +16,7 @@ public class JedisConnectionFactory {
     static{
 
         // 对 Jedis 连接池进行初始化
+        // addZhuShi分支的
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxTotal(8);// 最大连接数
         config.setMaxIdle(8);// 最大空闲连接
